@@ -6,6 +6,8 @@
 * '보오 - 유기동물 입양&봉사' 시뮬레이션: 봉사신청, 푸시알림, 유기동물 확인 -> https://www.youtube.com/watch?v=uvaB5JFzMv8      
 * '보오 - 관계자용' 시뮬레이션: 유기동물 입력 및 정보 수정 기능 -> https://www.youtube.com/watch?v=kaP0BdXtaDU
 * '보오 - 유기동물 입양&봉사' 시뮬레이션: 회원가입 기능 -> https://www.youtube.com/watch?v=G7568cz763M
+</br>
+
 
 # '보오 - 유기동물 입양&봉사': 지자체 유기동물 보호소를 위한 어플(유저용)
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/7c09d253-edfd-4e5c-a1ec-08d6de59ef16" width="20%"></img>
@@ -29,6 +31,8 @@
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/5ea4935a-8abe-4e29-ae4f-a149549a3bda" width="20%"></img>
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/f5994453-a346-4ac7-b85d-72793312ee22" width="20%"></img>
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/efe99c1c-bbe1-487e-a181-9ce81c7efa69" width="20%"></img>
+
+</br>
 
 # 어플 기능 및 라이브러리 소개
 ‘보오 - 유기동물 입양&봉사' 어플 기능
@@ -59,6 +63,8 @@ iOS에서 사용한 라이브러리
 - Material Calendar View(캘린더)
 - Glide(이미지 캐싱)
 - FirebaseAuth(회원가입), FirebaseFirestore(데이터), FirebaseFunctions(푸시알림), FirebaseMessaging(푸시알림), FirebaseStorage(이미지)
+
+</br>
 
 # 앱을 서비스하며 했던 가장 기억에 남는 노력
 예전에는
