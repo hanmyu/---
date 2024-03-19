@@ -8,3 +8,4 @@
 앱의 자세한 구동 방식은 유튜브 영상에서 확인하실 수 있습니다.    
 * '보오 - 유기동물 입양&봉사' 시뮬레이션: 봉사신청, 푸시알림, 유기동물 확인 -> https://www.youtube.com/watch?v=uvaB5JFzMv8      
 * '보오 - 관계자용' 시뮬레이션: 유기동물 입력 및 정보 수정 기능 -> https://www.youtube.com/watch?v=kaP0BdXtaDU
+* '보오 - 유기동물 입양&봉사' 시뮬레이션: 회원가입 기능 -> https://www.youtube.com/watch?v=G7568cz763M
