@@ -7,9 +7,52 @@
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/f6e43ea6-eab3-4a54-9411-de9a911c3cc1" width="20%"></img>
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/257b957e-f58d-4985-befe-0ced9a3025e3" width="20%"></img>
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/4aa1537d-c112-4ded-b8d6-615f9d4b2929" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/cc64a964-515b-48a8-ae21-89d6fc943a8b" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/b5218dca-1866-4b5a-b131-88b7b8e81e46" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/674fe7c1-ed9f-4d3b-a0cc-b3c96d5cbd4b" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/81ebcfc6-a8b0-4f6c-af57-76782be0e85f" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/8cf73ef9-ccdf-45ae-8f3d-850b83c7641f" width="20%"></img>
 
 
+# ‘보오 - 관계자용' : 지자체 유기동물 보호소를 위한 어플(보호소용)
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/6822d695-5c80-4641-8425-4914b68b998a" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/2fa38a88-15ef-4047-a8f6-b58d98639f29" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/8838a28f-cce9-45ce-9337-341cdc39ce5c" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/b050ede2-a256-4f57-9acb-4512971c8e93" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/9a25c83d-39a8-4109-b873-58248a3bbede" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/5ea4935a-8abe-4e29-ae4f-a149549a3bda" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/f5994453-a346-4ac7-b85d-72793312ee22" width="20%"></img>
+<img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/efe99c1c-bbe1-487e-a181-9ce81c7efa69" width="20%"></img>
 
+# 어플 기능 및 라이브러리 소개
+‘보오 - 유기동물 입양&봉사' 어플 기능
+- 회원가입(휴대폰, 이메일 인증), 회원 탈퇴, 이메일 변경, 휴대폰 번호 변경, 로그인, 로그아웃
+- 캘린더에서 봉사 신청
+- 마이페이지에서 봉사 내역 확인 및 봉사 취소
+- 패널티 기능(봉사시간 24시간 내 취소 또는 봉사 미참여 시)
+- 패널티 2회 누적 시, 더 이상 해당 보호소 봉사 신청 불가
+- 보호 중 동물과 입양된 동물 확인
+- 마이페이지에서 봉사 누적 횟수 확인
+- 봉사 신청 승인, 취소 시 푸시알림      
+     
+‘보오 - 관계자용' 어플 기능
+- 회원가입(휴대폰, 이메일 인증), 회원 탈퇴, 로그인, 로그아웃
+- 봉사 일정 및 봉사 인원 데이터 추가
+- 봉사 신청한 사람 승인 및 거절
+- 동물 사진 및 정보 업로드
+- 봉사 참여 시, 봉사 누적 횟수 +1
+- 봉사 신청 승인 또는 봉사 일정 삭제 시 푸시알림
+
+iOS에서 사용한 라이브러리
+- FSCalendar(캘린더)
+- PagerTabStripView(Tab Layout)
+- Kingfisher(이미지 캐싱)
+- FirebaseAuth(회원가입), FirebaseFirestore(데이터), FirebaseFunctions(푸시알림), FirebaseMessaging(푸시알림), FirebaseStorage(이미지)
+
+안드로이드에서 사용한 라이브러리
+- Material Calendar View(캘린더)
+- Glide(이미지 캐싱)
+- FirebaseAuth(회원가입), FirebaseFirestore(데이터), FirebaseFunctions(푸시알림), FirebaseMessaging(푸시알림), FirebaseStorage(이미지)
 
 
 # 보오 어플 시뮬레이션 유튜브 링크
