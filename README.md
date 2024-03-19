@@ -60,3 +60,38 @@ iOS에서 사용한 라이브러리
 - Glide(이미지 캐싱)
 - FirebaseAuth(회원가입), FirebaseFirestore(데이터), FirebaseFunctions(푸시알림), FirebaseMessaging(푸시알림), FirebaseStorage(이미지)
 
+# 앱을 서비스하며 했던 가장 기억에 남는 노력
+예전에는
+1. 보호소에서 동물 사진을 가로, 세로 1:1 비율로 찍어서 업로드해야했고
+2. 사진 압축 방법이 최적화되지 않아서 업로드된 사진의 화질은 낮고 사진 크기는 컸음.
+추후 사진 업로드 방법을 크게 개선하여
+1. 보호소가 사진을 가로, 세로 1:1로 맞추어 올리지 않아도 앱에서 자동으로 사진이 1:1 비율로 잘리도록 했고
+2. 사진 업로드 방법을 최적화하여 사진 화질은 높이고 크기는 낮추는데 성공함.
+
+## 고민했던 부분
+- 사진을 Resize 해야할지, 잘라야할지, 압축을 해야할지(=어떤 순서대로 무엇을 해야할지)
+- Resize는 얼마나 할지
+- 자를 때 어떤 크기로 자를지
+- 압축(compressionQuality)은 얼마나 할지
+
+사진 크기별로(1MB, 2MB, 3MB, 4MB), 유형별로(단순, 복잡한 사진) 총합 200번 가까이 다양한 방법으로 사진 업로드를 시도해보며 최적의 조건을 알아내는데 성공함.
+
+*네이버 블로그에 사진을 직접 올려보며 네이버 압축 방법과 비교하며 최적화함.       
+
+<img width="234" alt="스크린샷 2024-03-20 오전 3 41 06" src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/3c5ca914-fd93-4fa1-9635-890b0192dea4">
+
+## 개선된 부분
+- 전에는 평균 1.5 ~ 4MB의 사진 업로드 시 사진 크기가 650KB ~ 800KB로 줄었으나 사진 업로드 방법 최적화 후, 사진 크기를 50KB ~ 400KB로 줄일 수 있었으며 사진 화질도 크게 개선되는 성과 기록.        
+<img width="396" alt="스크린샷 2024-03-20 오전 3 39 22" src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/686dc6ce-1bf8-4341-b392-1a9ce51aad5b">
+
+그림 1. 사진 업로드 화질은 낮고 사진 크기는 컸을 때(전, 왼쪽), 사진 업로드 방법을 개선하여 사진 화질은 높이고 사진 크기를 줄였을 때(후, 오른쪽), 둘 다 IOS.
+
+<img width="370" alt="스크린샷 2024-03-20 오전 3 39 48" src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/7d1da736-0f6e-4add-90a2-c40b7ade48ea">      
+
+그림 2. 사진 업로드 화질이 낮고 사진 크기는 컸을 때(개선 전, Firebase Storage 스크린샷)
+         
+<img width="379" alt="스크린샷 2024-03-20 오전 3 40 11" src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/577cef41-59cf-4996-addb-360f75ae6d42">
+
+그림 3. 사진 업로드 화질을 높이고 사진 크기는 줄였을 때(개선 후, Firebase Storage 스크린샷)
+
+
