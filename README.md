@@ -1,6 +1,12 @@
 # '보오 - 유기동물 입양&봉사', '보오 - 관계자용' 어플 소개
 2년 3개월 간 혼자 지자체 유기동물 보호소를 위한 어플리케이션을 만들고 운영해왔습니다. 현재 플레이스토어, 앱스토어에 제가 만든 앱 4개가 올라갔었으며 앱의 이름은 ‘보오 - 유기동물 입양&봉사'와 ‘보오 - 관계자용’입니다. 저는 ‘보오’ 어플을 기획, 개발, 배포, 운영하며 사용자 피드백을 받아 꾸준히 앱을 개선해왔으며 전주시 늘봄유기견재활센터와 협업하며 전국의 지자체 유기동물 보호센터가 사용할 수 있는 유기동물 관리시스템의 표준을 만들고 해당 표준을 특허 출원하였습니다 (발명의 명칭: 유기동물 보호센터의 유기견 관리 시스템 및 방법). 영업부터 홍보, 어플 개발, 비즈니스 모델 연구, 특허 출원 등 창업의 전반을 혼자 담당하며 비즈니스에 대한 깊은 이해를 가질 수 있었습니다. 현재 운영을 중단한 ‘보오' 어플은 Java, Swift, Firebase를 이용하여 만들었으며 해당 깃허브 레포에서는 '보오 - 유기동물 입양&봉사' 어플 코드를 확인하실 수 있습니다.
 
+# 보오 어플 시뮬레이션 유튜브 링크
+어플의 자세한 구동 방식은 유튜브 영상에서 확인하실 수 있습니다.    
+* '보오 - 유기동물 입양&봉사' 시뮬레이션: 봉사신청, 푸시알림, 유기동물 확인 -> https://www.youtube.com/watch?v=uvaB5JFzMv8      
+* '보오 - 관계자용' 시뮬레이션: 유기동물 입력 및 정보 수정 기능 -> https://www.youtube.com/watch?v=kaP0BdXtaDU
+* '보오 - 유기동물 입양&봉사' 시뮬레이션: 회원가입 기능 -> https://www.youtube.com/watch?v=G7568cz763M
+
 # '보오 - 유기동물 입양&봉사': 지자체 유기동물 보호소를 위한 어플(유저용)
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/7c09d253-edfd-4e5c-a1ec-08d6de59ef16" width="20%"></img>
 <img src="https://github.com/hanmyu/Bo_Abandoned_Animal_Adoption_App/assets/157959298/b993a43d-e976-4659-95b3-a637b491ad11" width="20%"></img>
@@ -54,9 +60,3 @@ iOS에서 사용한 라이브러리
 - Glide(이미지 캐싱)
 - FirebaseAuth(회원가입), FirebaseFirestore(데이터), FirebaseFunctions(푸시알림), FirebaseMessaging(푸시알림), FirebaseStorage(이미지)
 
-
-# 보오 어플 시뮬레이션 유튜브 링크
-어플의 자세한 구동 방식은 유튜브 영상에서 확인하실 수 있습니다.    
-* '보오 - 유기동물 입양&봉사' 시뮬레이션: 봉사신청, 푸시알림, 유기동물 확인 -> https://www.youtube.com/watch?v=uvaB5JFzMv8      
-* '보오 - 관계자용' 시뮬레이션: 유기동물 입력 및 정보 수정 기능 -> https://www.youtube.com/watch?v=kaP0BdXtaDU
-* '보오 - 유기동물 입양&봉사' 시뮬레이션: 회원가입 기능 -> https://www.youtube.com/watch?v=G7568cz763M
